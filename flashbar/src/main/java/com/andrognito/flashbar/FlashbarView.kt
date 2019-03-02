@@ -44,7 +44,7 @@ import kotlinx.android.synthetic.main.flash_bar_view.view.*
 internal class FlashbarView(context: Context) : LinearLayout(context) {
 
     private val TOP_COMPENSATION_MARGIN = resources.getDimension(R.dimen.fb_top_compensation_margin).toInt()
-    private val BOTTOM_COMPENSATION_MARGIN = resources.getDimension(R.dimen.fb_bottom_compensation_margin).toInt()
+    private val BOTTOM_COMPENSATION_MARGIN = 0
 
     private lateinit var parentFlashbarContainer: FlashbarContainerView
     private lateinit var gravity: Gravity
